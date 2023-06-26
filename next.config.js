@@ -3,9 +3,10 @@ const { withSentryConfig } = require('@sentry/nextjs')
 
 const moduleExports = {
 
+  productionBrowserSourceMaps: true,
   sentry: {
-    // disableClientWebpackPlugin: true,
-    // disableServerWebpackPlugin: true,
+    disableClientWebpackPlugin: true,
+    disableServerWebpackPlugin: true,
     widenClientFileUpload: true,
     hideSourceMaps:true,
   },
