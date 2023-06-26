@@ -15,7 +15,7 @@ const moduleExports = {
 };
 const sentryWebpackPluginOptions = {
 
-  release: "aldenRelease",
+  release: "aldenReleass",
   silent: false,
   ignore: [],
   configFile: "sentry.properties"
